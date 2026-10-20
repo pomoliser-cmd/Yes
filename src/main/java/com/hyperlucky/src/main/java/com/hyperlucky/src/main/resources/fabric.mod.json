@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hyperlucky",
+  "version": "1.0.0",
+  "name": "Hyper Lucky Block",
+  "description": "Custom Lucky Blocks made for Hyper Launcher!",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.hyperlucky.HyperLuckyMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~26.3",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
